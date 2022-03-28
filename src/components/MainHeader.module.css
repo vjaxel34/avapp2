@@ -1,6 +1,7 @@
 .header {
   width: 100%;
   height: 8rem;
+  background-color: black;
 }
 
 .header nav {
@@ -27,7 +28,7 @@
   width: 100%;
   font-size: 2.5rem;
   padding: .8rem;
-  color: black;
+  color: white;
   text-decoration: none;
   border-radius: 30px;
   border-bottom: 3px solid black;
@@ -37,7 +38,7 @@
 .header a:hover,
 .header a:active,
 .header a.active {
-  color: #393e46;
+  color: #90b8f8;
   padding: .7rem;
   border-bottom: 3px solid #393e46;
   border-radius: 20px;
