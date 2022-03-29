@@ -1,0 +1,20 @@
+.productBanner{
+    background-image: url("../../public/images/womanwithcomputer.jpg");
+    height: 600px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.title{
+    width: 400px;
+}
+.maintitle{
+    color: #26282b;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-left: 20px;
+    font-size: 50px;
+}
+.motto{
+    padding-left: 20px;
+}

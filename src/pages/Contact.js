@@ -1,4 +1,5 @@
 import classes from './Contact.module.css';
+import HomePageBanner from "../components/HomePageBanner";
 
 function Contact() {
   return (

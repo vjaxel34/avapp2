@@ -2,11 +2,15 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    padding-top: 80px;
 }
-.footer.a{
+.footer a{
     text-decoration: none;
+    line-height: 40px;
 }
-
+.footer p{
+    line-height: 40px;
+}
 .contact{
     padding: 30px;
 }
@@ -15,4 +19,7 @@
 }
 .media{
     padding: 30px;
+}
+.logo{
+    padding-bottom: 60px;
 }

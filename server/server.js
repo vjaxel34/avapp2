@@ -39,5 +39,5 @@ app.get('/products', (req, res) =>{
     })
 })
 app.listen(3001, () => {
-  console.log("yes love 3001");
+  console.log("yes it worked 3001");
 });

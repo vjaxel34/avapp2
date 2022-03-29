@@ -1,6 +1,10 @@
 import classes from "./Product.module.css";
 import { useState } from "react";
 import Axios from "axios";
+import ProductPageBanner from "../components/ProductPageBanner";
+// import NewSlide from "../components/NewSlide";
+import CustomShow from "../components/CustomShow";
+
 const Products = () => {
   const [title, setTitle] = useState("");
   const [description, setDescription] = useState("");
@@ -31,6 +35,10 @@ const Products = () => {
   return (
     <div className={classes.app}>
       <div className={classes.information}>
+        <ProductPageBanner />
+    {/* <NewSlide />  */}
+    <CustomShow />
+ 
         <label>Title:</label>
         <input
           type="text"
