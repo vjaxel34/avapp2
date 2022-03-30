@@ -1,6 +1,15 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+  }
 .banner{
     background-image: url("../../public/images/zoom.jpg");
     height: 600px;
-    display: flex;
-    justify-content: space-between;
+}
+@media(max-width: 414px){
+  .banner{
+      width: 414px;
+  }
 }
