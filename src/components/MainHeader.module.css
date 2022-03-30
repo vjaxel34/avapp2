@@ -52,11 +52,10 @@
   .header {
     width: 414px;
     height: 5rem;
-    background-color: blue;
   }
   .header a {
     width: 40px;
-    font-size: 1.0rem;
+    font-size: 1.5rem;
     padding: .8rem;
     border-radius: 5px;
     
