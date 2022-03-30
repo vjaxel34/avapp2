@@ -55,6 +55,19 @@
   }
   .header a {
     width: 40px;
+    font-size: 1.9rem;
+    padding: .8rem;
+    border-radius: 5px;
+    
+  }
+}
+@media(max-width: 375px){
+  .header {
+    width: 375px;
+    height: 5rem;
+  }
+  .header a {
+    width: 40px;
     font-size: 1.5rem;
     padding: .8rem;
     border-radius: 5px;

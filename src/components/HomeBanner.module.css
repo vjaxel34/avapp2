@@ -13,3 +13,8 @@
       width: 414px;
   }
 }
+@media(max-width: 375px){
+  .banner{
+      width: 375px;
+  }
+}

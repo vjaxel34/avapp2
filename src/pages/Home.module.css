@@ -8,3 +8,58 @@
     color: white;
     font-size: 20px;
 }
+@media (max-width: 912px) {
+    .para1{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .title1{
+        font-size: 30px;
+    }
+  }
+@media (max-width: 820px) {
+    .para1{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .title1{
+        font-size: 30px;
+    }
+  }
+@media (max-width: 414px) {
+    .para1{
+        font-size: 30px;
+        padding-top: 30px;
+    }
+    .title1{
+        font-size: 30px;
+    }
+  }
+  @media (max-width: 390px) {
+      .section1{
+          width: 390px;
+      }
+    .slider{
+        width: 100%;
+    }
+    .para1{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .title1{
+        font-size: 30px;
+    }
+}
+  @media (max-width: 375px) {
+    .slider{
+        width: 100%;
+    }
+    .para1{
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    .title1{
+        font-size: 30px;
+    }
+    
+}

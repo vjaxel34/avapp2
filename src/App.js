@@ -12,7 +12,7 @@ function App() {
       <MainHeader />
       <main>
         <Routes>
-          <Route path="/" element={<Navigate to="/home" />} />
+          <Route path="/" element= {<Navigate to="/home" />} />
           <Route path="/home" element={<Home />} />
           <Route path="/products" element={<Products />} />
           <Route path="/contact" element={<Contact />} />

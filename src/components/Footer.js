@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className={classes.footer}>
       <div className={classes.logo}>
-        <img src="./images/lightBulb1.png" height="250px" />
+        <img src="./images/logo_size.jpg" height="250px" />
       </div>
       <div className={classes.contact}>
         <h1>Contact Us</h1>

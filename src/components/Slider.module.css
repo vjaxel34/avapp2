@@ -54,3 +54,13 @@
     transition-duration: 1s;
     transform: scale(1.08);
 }
+@media (max-width: 414px) {
+    .slider{
+       height: 50vh;
+    }
+    .image{
+        height: 30vh;
+    }
+
+}
+  
