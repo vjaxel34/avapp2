@@ -35,9 +35,24 @@
         font-size: 30px;
     }
   }
+  @media (max-width: 393px) {
+    .section1{
+        width: 414px;
+    }
+  .slider{
+      width: 100%;
+  }
+  .para1{
+      font-size: 20px;
+      padding-top: 30px;
+  }
+  .title1{
+      font-size: 30px;
+  }
+}
   @media (max-width: 390px) {
       .section1{
-          width: 390px;
+          width: 414px;
       }
     .slider{
         width: 100%;
@@ -51,6 +66,9 @@
     }
 }
   @media (max-width: 375px) {
+    .section1{
+        width: 375px;
+    }
     .slider{
         width: 100%;
     }

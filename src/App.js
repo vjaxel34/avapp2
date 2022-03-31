@@ -4,7 +4,6 @@ import Products from "./pages/Products";
 import Contact from "./pages/Contact";
 import MainHeader from "./components/MainHeader";
 import Footer from "./components/Footer";
-import HomePageBanner from "./components/HomePageBanner";
 
 function App() {
   return (
