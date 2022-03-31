@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Open Sans',sans-serif;
+  }
+.banner{
+    background-image: url("../../public/images/peopleon.jpg");
+    background-size: cover;
+    height: 600px;
+}
+.content{
+  color: white;
+  font-size: 1.25rem;
+}
+@media(max-width: 414px){
+  .banner{
+      width: 414px;
+  }
+}
+@media(max-width: 375px){
+  .banner{
+      width: 375px;
+  }
+
+}
