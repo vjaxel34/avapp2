@@ -8,7 +8,7 @@ app.use(express.json());
 const db = mysql.createConnection({
   user: "root",
   host: "localhost",
-  password: "FeelTheGlow900!",
+  password: "password",
   database: "av_store",
 });
 
